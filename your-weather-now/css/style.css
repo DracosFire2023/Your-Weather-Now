@@ -1,0 +1,97 @@
+body
+{
+  background-color:#8da2d8;
+}
+
+p
+{
+
+}
+
+.baloo
+{
+  font-family: 'Poiret One', cursive;
+  font-size: 255%;
+  font-weight:bold;
+  
+}
+
+.celfar
+{
+  font-size:-850%;	
+  border:none;
+  background-color:#e6e6e6;
+}
+
+
+#icon
+{
+	margin:5% 0% 5% 0%;
+}
+
+p
+{
+  font-family: 'Poiret One', cursive;
+  font-size: 155%;
+  font-weight:bold;
+}
+
+.message
+{
+	margin:0% 7% 0% 7%;
+}
+
+.page-top
+
+{
+  margin-bottom:1%;
+}
+
+.page-heading
+{
+	margin-top:1%;
+}
+
+#conditions
+{
+	
+}
+
+.well
+{
+  border: 20px solid #cccccc;
+  background-color:#e6e6e6;
+}
+
+.wi
+{
+	font-size:850%;
+	margin-bottom:-8%;
+}
+
+.fa
+{
+	font-size:850%;
+	margin-bottom:-8%;
+}
+
+.wibtn
+{
+  font-size:350%;
+  border:none;
+  background-color:#e6e6e6;
+  padding:0% 1% 0% 1%;
+  color:white;
+}
+
+.tmp
+{
+  font-size:350%;
+  border:none;
+  background-color:#e6e6e6;
+}
+
+.degrees
+{
+  font-size:100%;
+}
