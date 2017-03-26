@@ -36,15 +36,15 @@ $.getJSON(getLocation).done(function(locations)
   var city = (locations.city);
   var state = (locations.region);
   var hot = "<br><p>Hot</p>";
-  var loc = city + ", " + state;
+  var location = city + ", " + state;
   location.innerHTML = "<p>" + loc + "</p>";
   
-  var urlC = ("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&mode=json&units=metric&cnt=7&appid=API-Key-Here");
+  var urlCity = ("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&mode=json&units=metric&cnt=7&appid=API-Key-Here");
  
 function getWeather()
 {		
   //pass JSON weather data to b  
-  $.getJSON(urlC, function(b) 
+  $.getJSON(urlCity, function(b) 
   {
     var tempC = b.main.temp;
 	var tempF = (tempC * 1.8 + 32); 
@@ -805,8 +805,8 @@ function getWeather()
         document.getElementById("Farenheit").style.display = "inline";
         document.getElementById("Celsius").style.display = "none";
       });
-        
-      $("#Farenheit").on("click", function() 
+          
+      $("#Fahrenheit").on("click", function()  
       {
 	    weatherNow.innerHTML = "<p class='tmp'>" + Math.round(tempF) + '<i class="degrees wi wi-degrees"</i>' + "</p>";
         document.getElementById("Farenheit").style.display = "none";
